@@ -8,8 +8,8 @@ from web.post_requests import post_router
 def get_application():
     app = FastAPI(title=__name__)
 
-    app.include_router(router=get_router, prefix='/currency')
-    app.include_router(router=post_router, prefix='/currency')
+    app.include_router(router=get_router)
+    app.include_router(router=post_router)
 
     return app
 

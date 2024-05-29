@@ -1,3 +1,3 @@
 from fastapi.routing import APIRouter
 
-post_router = APIRouter(prefix='/post')
+post_router = APIRouter(prefix='/currency/post')

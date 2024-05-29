@@ -8,7 +8,7 @@ from fastapi.routing import APIRouter
 from web.models import ExternalInfo
 from core.gateways.currency_gateway import CurrencyAPI
 
-get_router = APIRouter(prefix='/get')
+get_router = APIRouter(prefix='/currency/get')
 
 
 @get_router.get('/status')
